@@ -1,8 +1,20 @@
-# M-Non-attacking-queens-on-an-N-triangle
-This program arranges M amount of queens in an N sized triangle board so they would be non-attacking (Bruteforce and Efficient methods included)
+# M Non-Attacking Queens on an N-Triangle
 
-Old school project that I did by myself.
-There are only 2 methods to solve this problem efficiently without relying on bruteforcing which is 
-finding the correct diagonals or finding correct columns as stated in https://www.cin.ufpe.br/~pcp/nonattacking_queens.pdf
+This project places **M** queens on an **N-sized triangular board** such that no two queens attack each other.  
+Includes both **brute-force** and **efficient** solving methods.
 
-Primary functions ( Prints triangle board, solve with bruteforce, solve with efficient column method ).
+## Efficient Methods
+
+Two known approaches beyond brute-force:
+- Diagonal based placement
+- Column based placement
+
+References:  
+- [Original PDF](https://www.cin.ufpe.br/~pcp/nonattacking_queens.pdf)  
+- [Archived Version](https://web.archive.org/web/20210506234431/https://www.cin.ufpe.br/~pcp/nonattacking_queens.pdf)
+
+## Features
+
+- Print the triangular board  
+- Solve via brute-force  
+- Solve using the efficient column based method
